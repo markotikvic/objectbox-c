@@ -34,7 +34,7 @@ else ()
         set(DL_VERSION 0.18.0)
 
         # Platform detection and other setup
-        set(DL_URL https://github.com/objectbox/objectbox-c/releases/download)
+        set(DL_URL https://github.com/markotikvic/objectbox-c/releases/download)
 
         set(DL_EXTENSION "tar.gz")
         if (${CMAKE_SYSTEM_NAME} STREQUAL Darwin)
